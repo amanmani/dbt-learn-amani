@@ -41,6 +41,13 @@ sources:
     tables:
       - name: orders
       - name: customers              
-
+    
+  - name: ticket_tailor
+    database: raw
+    tables:
+      - name: orders
+      - name: events
+      - name: issued_tickets             
+ 
 
               
